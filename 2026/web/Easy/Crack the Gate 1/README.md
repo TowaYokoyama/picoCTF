@@ -115,6 +115,15 @@ picoCTF{brut4_f0rc4_83812a02}
 本質的な問題点は、
 
 > サーバー側がクライアントのHTTPヘッダを信頼して認証処理をスキップしていたこと。
+```
+if (req.headers["X-Dev-Access"] === "yes") {
+    // 開発者用バイパス
+    login success
+} else {
+    // 通常の認証処理
+}
+
+```
 
 ### 問題点
 
