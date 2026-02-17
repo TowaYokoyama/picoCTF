@@ -1,4 +1,4 @@
-# picoCTF 2025 – Crack the Gate 1
+# Crack the Gate 1
 
 ## Category
 Web Exploitation
